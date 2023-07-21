@@ -3,7 +3,8 @@ import React from 'react'
 
 const index = () => {
     function addmeetuphandler(enteredMeetupData){
-        console.log(enteredMeetupData)
+     const response=   fetch('/api/new-meetup.js',{method:'POST',});
+         
     }
 
   return (
