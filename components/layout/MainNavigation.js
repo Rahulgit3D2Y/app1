@@ -1,5 +1,7 @@
-import classes from './MainNavigation.module.css';
 import Link from 'next/link';
+
+import classes from './MainNavigation.module.css';
+
 function MainNavigation() {
 
   return (
@@ -11,7 +13,7 @@ function MainNavigation() {
             <Link href='/'>All Meetups</Link>
           </li>
           <li>
-            <Link href='/meetup'>Add New Meetup</Link>
+            <Link href='/new-meetup'>Add New Meetup</Link>
           </li>
         </ul>
       </nav>
